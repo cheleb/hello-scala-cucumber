@@ -4,7 +4,11 @@ import junit.framework.TestCase
 import munit.FunSuite
 
 @RunWith(classOf[Cucumber])
-@CucumberOptions(publish = true)
+@CucumberOptions(
+  plugin = Array("pretty"),
+  features = Array("src/test/resources/features")
+  // glue = Array("steps")
+)
 class TestRunner extends TestCase {
 //   test("example test that succeeds") {
 //     val obtained = 42

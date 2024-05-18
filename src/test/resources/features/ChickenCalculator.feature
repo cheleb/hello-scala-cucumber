@@ -1,5 +1,5 @@
 Feature: Chicken Collecting Insects Calculator
-  
+
   Scenario: Chicken collects insects for several minutes
     Given a chicken collects 3 insects per minute
     When chicken has searched insects for 5 minutes
