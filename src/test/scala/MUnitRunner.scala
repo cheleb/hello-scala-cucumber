@@ -6,7 +6,8 @@ import munit.FunSuite
 @RunWith(classOf[Cucumber])
 @CucumberOptions(
   plugin = Array(
-    "pretty",
+//    "junit",
+//    "pretty",
     "html:target/cucumber/index.html",
     "json:target/cucumber/cucumber.json"
   ),

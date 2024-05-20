@@ -14,5 +14,5 @@ lazy val root = project
         Dependencies.munit,
 //    libraryDependencies += "junit" % "junit" % "4.13.2",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % Test,
-    testOptions in Test := Seq(Tests.Argument(TestFrameworks.JUnit, "-a"))
+    Test / testOptions := Seq(Tests.Argument(TestFrameworks.JUnit, "-a"))
   )
