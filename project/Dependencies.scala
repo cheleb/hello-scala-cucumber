@@ -2,8 +2,8 @@ import sbt._
 
 object Dependencies {
   object Versions {
-    val cucumberJUnit = "7.18.0"
-    val cucumberScala = "8.23.0"
+    val cucumberJUnit = "7.18.1"
+    val cucumberScala = "8.23.1"
     val zio = "2.1.1"
   }
   val zio = Seq("dev.zio" %% "zio" % Versions.zio)
