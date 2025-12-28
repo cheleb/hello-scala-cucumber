@@ -23,6 +23,7 @@ class AccountSteps extends ScalaDsl with EN {
           Account("current", balance - double1)
         case Account("savings", balance) =>
           Account("savings", balance + double1)
+        case a => a
       }
 
   }

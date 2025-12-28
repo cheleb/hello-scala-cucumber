@@ -2,6 +2,7 @@
 import io.cucumber.scala.{EN, ScalaDsl}
 import chicken.ChickenCalculator
 
+
 class StepDefinitions extends ScalaDsl with EN {
   var chickenCalculator: Option[ChickenCalculator] = None
   var actualInsectCount: Option[Int] = None

@@ -2,7 +2,6 @@ Feature: ZCalculator
 
   ZCalculator is a simple calculator that can add, subtract, multiply and divide numbers.
 
-  Scenario Outline: There can be only One
 
   @release:iteration-1
   @Department:IT
